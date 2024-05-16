@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaryan - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(5, 5, 58);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 75px;
+            background-color: rgb(10, 10, 82);
+            padding: 10px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0px 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            background-color: white;
+            color: rgb(10, 10, 82);
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 50px 0px;
+            align-items: center;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2rem;
+            /* margin: 130px 0; */
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 40px 0;
+        }
+
+        .purple {
+            color: rgb(161, 89, 229);
+        }
+
+        .text-gray{
+            color: gray;
+        }
+
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 100vh;
+        }
+
+        .secondsection h1{
+            font-size: 1.8rem;
+        }
+
+        hr{
+            margin: 50px;
+        }
+
+        .secondsection .box{
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 50px 0;
+            display: flex;
+        }
+        
+        .secondsection .vertical{
+            background-color: white;
+            width: 2px;
+            height: 93px;
+            margin: 0px 100px;
+        }
+
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -35px;
+            left: -9px;
+        }
+
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            left: -65px;
+            text-align: center;
+            width: 150px;
+        }
+
+        .vertical-desc{
+            position: relative;
+            top: 100px;
+            left: -70px;
+            font-size: 13px;
+            width: 180px;
+            color: rgb(167, 166, 166);
+        }
+
+        footer{
+            background-color: rgb(10, 10, 82);
+            /* height: 233px; */   
+        }
+
+        
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            margin: 50px 0px;
+            justify-content: space-evenly;        
+        }
+        
+        .footer > div{
+            width: 223px;
+        }
+
+        .footer ul{
+            list-style: none;
+            /* margin: 0px 120px; */
+        }
+
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            font-size: 10px;
+            padding: 15px 0;
+        }
+
+        .btn{
+            background-color: rgb(42, 42, 117);
+            color: white;
+            font-size: 15px;
+            margin: 15px 15px 15px 0;
+            padding: 15px;
+            border-radius: 10px;
+            border: 2px solid white;
+            cursor: pointer;
+        }
+
+        .btn:hover{
+            background-color: white;
+            color: black;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Aaryan's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi! My name is <span class="purple">Aaryan</span>
+                <div>and I am a passionate</div>
+                <span id="element" class="purple"></span>
+                <div class="buttons">
+                    <a href="https://www.github.com"><button class="btn">Visit Github</button></a>
+                    <a href="Assets/ComputerScienceResumedocx.pdf"><button class="btn">View Resume</button></a>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="Assets/developer.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img src="Assets/html-logo.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        <h4>HTML Developer</h4>
+                        <div class="year">(2010-2012)</div>
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ipsum vel id labore. Iusto, consequatur aut nemo ipsam praesentium quo reiciendis numquam! Maxime ipsam ducimus perspiciatis distinctio voluptatum dignissimos voluptatem odit sint hic, vero dolore saepe cum earum libero. Sapiente quae, repellendus corrupti id libero ab! Velit fugiat repellendus maiores.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="Assets/nodejs-logo.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        <h4>Node.js Developer</h4>
+                        <div class="year">(2013-2015)</div>
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ipsum vel id labore. Iusto, consequatur aut nemo ipsam praesentium quo reiciendis numquam! Maxime ipsam ducimus perspiciatis distinctio voluptatum dignissimos voluptatem odit sint hic, vero dolore saepe cum earum libero. Sapiente quae, repellendus corrupti id libero ab! Velit fugiat repellendus maiores.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="Assets/facebook-logo.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        <h4>Facebook</h4>
+                        <div class="year">(2015-2016)</div>
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ipsum vel id labore. Iusto, consequatur aut nemo ipsam praesentium quo reiciendis numquam! Maxime ipsam ducimus perspiciatis distinctio voluptatum dignissimos voluptatem odit sint hic, vero dolore saepe cum earum libero. Sapiente quae, repellendus corrupti id libero ab! Velit fugiat repellendus maiores.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="Assets/insta-logo.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        <h4>Instagram</h4>
+                        <div class="year">(2016-2019)</div>
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ipsum vel id labore. Iusto, consequatur aut nemo ipsam praesentium quo reiciendis numquam! Maxime ipsam ducimus perspiciatis distinctio voluptatum dignissimos voluptatem odit sint hic, vero dolore saepe cum earum libero. Sapiente quae, repellendus corrupti id libero ab! Velit fugiat repellendus maiores.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="Assets/twitter-logo.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        <h4>Twitter</h4>
+                        <div class="year">(2019-2022)</div>
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ipsum vel id labore. Iusto, consequatur aut nemo ipsam praesentium quo reiciendis numquam! Maxime ipsam ducimus perspiciatis distinctio voluptatum dignissimos voluptatem odit sint hic, vero dolore saepe cum earum libero. Sapiente quae, repellendus corrupti id libero ab! Velit fugiat repellendus maiores.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="Assets/youtube-logo.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        <h4>Youtube</h4>
+                        <div class="year">(2022-2024)</div>
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ipsum vel id labore. Iusto, consequatur aut nemo ipsam praesentium quo reiciendis numquam! Maxime ipsam ducimus perspiciatis distinctio voluptatum dignissimos voluptatem odit sint hic, vero dolore saepe cum earum libero. Sapiente quae, repellendus corrupti id libero ab! Velit fugiat repellendus maiores.
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Aaryan's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.aaryansportfolio.com | All Rights Reserved 
+        </div>
+    </footer>
+
+    <!-- Element to contain animated typing -->
+    
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Full Stack Web Developer', 'Software Developer', 'Graphic Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+</body>
+
+</html>
